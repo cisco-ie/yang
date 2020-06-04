@@ -49,7 +49,6 @@ module BGP4-MIB {
      "[Revision added by libsmi due to a LAST-UPDATED clause.]";
   }
 
-
   container BGP4-MIB {
     config false;
 
