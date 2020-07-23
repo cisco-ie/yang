@@ -20,11 +20,11 @@ module ietf-voucher-request {
         an 'owner', so that the pledge may establish a secure
         connection to the owner's network infrastructure";
 
-    reference "RFC 8366: Voucher Profile for Bootstrapping Protocols";
+    reference "RFC 8366: Voucher Artifact for Bootstrapping Protocols";
   }
+
   organization
    "IETF ANIMA Working Group";
-
   contact
    "WG Web:   <https://datatracker.ietf.org/wg/anima/>
     WG List:  <mailto:anima@ietf.org>
@@ -45,11 +45,11 @@ module ietf-voucher-request {
     It provides content to the MASA for consideration
     during a voucher request.
 
-    The key words 'MUST', 'MUST NOT', 'REQUIRED', 'SHALL', 'SHALL NOT',
-    'SHOULD', 'SHOULD NOT', 'RECOMMENDED', 'NOT RECOMMENDED',
+    The key words 'MUST', 'MUST NOT', 'REQUIRED', 'SHALL', 'SHALL
+    NOT', 'SHOULD', 'SHOULD NOT', 'RECOMMENDED', 'NOT RECOMMENDED',
     'MAY', and 'OPTIONAL' in this document are to be interpreted as
-    described in BCP 14 RFC2119 RFC8174 when, and only when, they
-    appear in all capitals, as shown here.
+    described in BCP 14 (RFC 2119) (RFC 8174) when, and only when,
+    they appear in all capitals, as shown here.
 
     Copyright (c) 2019 IETF Trust and the persons identified as
     authors of the code. All rights reserved.
@@ -67,7 +67,7 @@ module ietf-voucher-request {
     description
      "Initial version";
     reference
-     "RFC XXXX: Voucher Profile for Bootstrapping Protocols";
+     "RFC XXXX: Bootstrapping Remote Secure Key Infrastructure";
   }
 
   // Top-level statement
@@ -135,7 +135,7 @@ module ietf-voucher-request {
           description
             "An X.509 v3 certificate structure as specified by RFC 5280,
              Section 4 encoded using the ASN.1 distinguished encoding
-             rules (DER), as specified in ITU-T X.690.
+             rules (DER), as specified in [ITU.X690.1994].
 
              The first certificate in the Registrar TLS server
              certificate_list sequence  (the end-entity TLS certificate,
